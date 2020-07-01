@@ -1,0 +1,97 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+h1{
+    font-size: 37px;
+    color: rgb(143, 20, 243);
+}
+h2{
+    font-size: 27px;
+}
+p{
+    color: dimgray;
+}
+button:hover{
+    color:blue;
+}
+button:active{
+    background-color: burlywood;
+}
+button{
+    background-color:rgba(211, 33, 131, 0.801);
+    color:white;
+    height: 31px;
+    width:97px;
+    font-weight: 700;
+    border-radius: 13%;
+    box-shadow: papayawhip;
+    border-color: white;
+}
+section{
+    /*border:1px solid red;*/
+    height: 600px;
+}
+.img-bc{
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    background-position: center;
+}
+.introduction-sec{
+    background-image: url("images/header-bg.png");
+    background-position: bottom;
+}
+.biography-sec{
+    background-image: url("images/biography-bg.png");
+}
+.latest-work{
+    background-image: url("images/latest-work-bg.png");
+}
+.contact{
+    height: 500px;
+    background-image: url("images/footer-bg.png");
+}
+footer{
+    font-size: 12px;
+    padding-bottom: 10px;
+}
+.half-width{
+    width: 40%;
+    float: left;
+    padding-left: 3%;
+    margin-left: 2%;
+
+}
+.half-width img{
+    /*padding-top: 7%;*/
+    width: 85%;
+}
+.quarter-width{
+    width: 30%;
+    float: left;
+    padding-top: 7%;
+}
+
+.quarter-first{
+    padding-left: 7%;
+}
+.quarter-width img{
+    width: 70%;
+}
+.mid-test{
+    padding-top: 5%;
+}
+.center-alligner{
+    text-align: center;
+}
+.contack-phero{
+    background-color:rgba(211, 33, 131, 0.801);
+    color:white;
+    height: 91px;
+    width: 250px;
+    font-weight: 700;
+    border-radius: 5%;
+    box-shadow: rgba(241, 198, 241, 0.24) 5px 15px;
+}
