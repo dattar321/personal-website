@@ -13,7 +13,7 @@ p{
     color: dimgray;
 }
 button:hover{
-    color:blue;
+   color:blue;
 }
 button:active{
     background-color: burlywood;
@@ -40,6 +40,7 @@ section{
     background-position: center;
 }
 .introduction-sec{
+    padding-top: 5%;
     background-image: url("images/header-bg.png");
     background-position: bottom;
 }
@@ -64,6 +65,7 @@ footer{
     margin-left: 2%;
 
 }
+
 .half-width img{
     /*padding-top: 7%;*/
     width: 85%;
